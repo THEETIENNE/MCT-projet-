@@ -1,0 +1,142 @@
+header{
+    width: 100%;
+    min-height: 125px;
+    background: blue;
+    border: solid rgba(243, 216, 216, 0.685);
+    
+ }
+ body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+ }
+ nav{
+  
+    width: 100%;
+  min-height: 15px;
+  background-color: rgb(243, 235, 235);
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+ }
+h1{
+  text-transform: uppercase;
+  color: aliceblue;
+  letter-spacing: 2px;
+  height: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+footer{
+  background-color: blue;
+  min-height: 65px;
+}
+
+
+.flexbox ul{
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+
+}
+.flexbox li{
+  list-style: none;
+  min-height: 500px;
+  min-width: 250px;
+  background-color:white;
+ 
+}
+
+
+  .link ul{
+  
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 15%;
+    font-size: 0.8rem;
+    
+  
+   
+  }
+  .link li{
+   
+    list-style: none;
+    min-height: 30px;
+    min-width: 90px;
+    background-color:rgb(243, 235, 235);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  
+  }
+
+
+  a{
+   
+    text-transform: uppercase;
+    text-shadow: 2px  -2px 7px ;
+    text-decoration: solid;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1rem;
+  
+  
+  }
+  .link button{
+    background-color: #d3cdcd;
+    color: #ffffff;
+    min-height: 30px;
+    min-width: 90px;
+    padding: 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+  
+  }
+  #btn1{
+    background: cyan;
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    margin-right: 388px;
+  
+  }
+  #btn1:hover{
+    color: white;
+    background: red;
+    
+  }
+  #btn2{
+    background: cyan;
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    margin-right: 300px;
+  
+  }
+  #btn2:hover{
+    background: red;
+    color: white;
+  }
+  #btn3{
+    background: cyan;
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    margin-right: 140px;
+    
+  
+  }
+  #btn3:hover{
+    background: red;
+    color: white;
+  }
